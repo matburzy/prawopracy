@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--
+  Customize this policy to fit your own app's needs. For more guidance, see:
+      https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+  Some notes:
+      * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+      * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+      * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+          * Enable inline JS: add 'unsafe-inline' to default-src
+  -->
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#EE82EE">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <script src="jquery-3.3.1.js"></script>
+  <title>Prawo pracy i u.s. - pytania</title>
+  <link rel="stylesheet" href="framework7/css/framework7.min.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<style>
+div {
+text-align: justify;
+}
+p {
+text-align: justify;
+}
+deletedquestions {
+color: red;
+}
+</style>
+<body class="color-theme-blue">
+  <div id="app">
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar"></div>
+    <!-- Left panel with cover effect-->
+    <div class="panel panel-left panel-cover theme-dark">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title">Polityka Prywatności i informacje</div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block">
+              <b>Polityka prywatności  aplikacji "Prawo pracy - pytania" z dnia 04.04.2019 roku</b><br>
+
+
+            <p>Polityka prywatności aplikacji "Prawo pracy - pytania" z dnia 04.04.2019 roku
+            Niniejsza aplikacja nie zbiera żadnych danych osobowych od swoich użytkowników i ich w żaden sposób nie przetwarza. Aplikacja w szczególności nie przetwarza następujących informacji:
+            - historii wyszukiwania,
+            - wpisywanych haseł.
+            Niniejsza aplikacja zawiera reklamy generowane przez partnera Google AdMob. Google AdMob używa reklam targetowanych na podstawie m.in. profilowania dokonywanego na podstawie odwiedzanych przez Ciebie stron internetowych. Nie ma to jednak związku z hasłami wpisywanymi do niniejszej aplikacji. Twórca aplikacji nie ma wpływu na treść reklam, a zasady zbierania danych osobowych przez Google AdMob są dostępne na stronie internetowej: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
+          </p><br>
+            <p>Google AdMob może zbierać następujące dane:
+            - dane dotyczące odwiedzanych stron internetowych w celu automatycznego profilowania,<br>
+            - dane dotyczące lokalizacji, jeżeli funkcja ta jest aktywowana w urządzeniu,<br>
+            - inne dane na które wyraziłeś zgodę w ramach korzystania z innych usług Google. </p>
+
+            <p>W razie pytań na temat polityki prywatności, należy kierować się na stronę Google podaną wyżej.</p>
+
+              Autor: Mateusz Burzyński. Jeżeli zauważysz błąd, skontaktuj się ze mną pod adresem: matburzy@gmail.com.<br><br> Autorem pytań egzaminacyjnych na kolokwia ustne jest Krajowa Rada Radców Prawnych.<br> Źródłem aktów prawnych dostępnych w programie jest Internetowy System Aktów Prawnych (ISAP).<br> Wersja aplikacji 1.0.1.<br><br>
+Nowe funkcje aplikacji:<br>
+- funkcja zapisywania i odczytywania własnych odpowiedzi z eksperymentalną funkcją tworzenia kopii zapasowej,<br>
+- zmiany stylistyczne, zmiana czcionki w aplikacji,<br>
+- dodanie odnośników do aktów prawnych wymaganych na egzamin.
+
+
+              <br><br> Korzystasz z darmowej wersji programu z reklamami. Jeżeli reklamy Cię denerwują, zachęcam do kupna wersji PRO.<br>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Right panel with reveal effect-->
+    <div class="panel panel-right panel-cover theme-dark">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title"><i class="f7-icons">help</i> Pomoc</div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block">
+              Aplikacja posiada nową funkcję - dodawania własnych odpowiedzi do pytań. Odpowiedzi można obecnie dodawać w sekcjach: losowania (do wylosowanych pytań) oraz do konkretnych pytań w odpowiedniej sekcji. Odpowiedzi dodane w dowolnym miejscu
+              są zapisywane globalnie w aplikacji. Aplikacja posiada również eksperymentalną funkcję tworzenia kopii zapasowej wprowadzonych pytań w formie wyciągu w formacie .JSON. W kolejnych wersjach aplikacji funkcja ta będzie działała w sposób automatyczny.
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<style>
+.medium {
+font-size: 20px;
+}
+.huge {
+font-size: 25px;
+}
+</style>
+
+<script type="text/javascript">
+function mediumfont(){
+$('#los1').removeClass();
+$('#los2').removeClass();
+$('#los3').removeClass();
+$('#los1').addClass('medium');
+$('#los2').addClass('medium');
+$('#los3').addClass('medium');
+}
+</script>
+<script type="text/javascript">
+function hugefont(){
+$('#los1').removeClass();
+$('#los2').removeClass();
+$('#los3').removeClass();
+$('#los1').addClass('huge');
+$('#los2').addClass('huge');
+$('#los3').addClass('huge');
+}
+</script>
+<script type="text/javascript">
+function normalfont(){
+$('#los1').removeClass();
+$('#los2').removeClass();
+$('#los3').removeClass();
+}
+</script>
+
+
+
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main ios-edges">
+      <!-- Page, data-name contains page name which can be used in callbacks -->
+      <div class="page" data-name="home">
+        <!-- Top Navbar -->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="left">
+              <a href="#" class="link icon-only panel-open" data-panel="left">
+                <i class="icon f7-icons ios-only">menu</i>
+                <i class="icon material-icons md-only">menu</i>
+              </a>
+            </div>
+
+
+
+            <div class="title sliding"><i class="f7-icons">info</i> Prawo pracy i u.s. - pytania</div>
+            <div class="right">
+              <a href="#" class="link icon-only panel-open" data-panel="right">
+                <i class="icon f7-icons ios-only">help</i>
+                <i class="icon material-icons md-only">help</i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Toolbar-->
+
+		<script type="text/javascript">
+function showall() {
+$("#mytable").html("");
+$.getJSON(
+  "prawopracy2019.json",
+  function(data) {
+    var tbl=$("<table/>").attr("id","mytable");
+    $("#mytable").append(tbl);
+    for(var i=0;i<141;i++)
+    {
+        var tr="<tr>";
+        var td1="<td><div class=\"card\"><div class=\"bg-color-blue text-color-white card-header\"><i class=\"f7-icons\">book</i> Pytanie nr "+data[i].id+"</div><div class=\"card-content card-content-padding\">"+data[i].tresc+"</div></div></td>";
+       $("#mytable").append(tr+td1);
+}
+});
+}
+		</script>
+
+		<script type="text/javascript">
+function showallubezpieczenia() {
+$("#mytable").html("");
+$.getJSON(
+  "ubezpieczenia2019.json",
+  function(data) {
+    var tbl=$("<table/>").attr("id","mytable");
+    $("#mytable").append(tbl);
+    for(var i=0;i<141;i++)
+    {
+        var tr="<tr>";
+        var td1="<td><div class=\"card\"><div class=\"bg-color-green text-color-white card-header\"><i class=\"f7-icons\">book</i> Pytanie nr "+data[i].id+"</div><div class=\"card-content card-content-padding\">"+data[i].tresc+"</div></div></td>";
+       $("#mytable").append(tr+td1);
+}
+});
+
+
+
+}
+		</script>
+
+
+    <script type="text/javascript">
+    $(document).click(function()
+{
+    StatusBar.hide();
+});
+    </script>
+
+        <script type="text/javascript">
+function losuj() {
+  var ladowanie = '<i class="fa fa-spinner"></i> Ładowanie danych...';
+
+$.getJSON(
+  "prawopracy2019.json",
+  function(data) {
+
+    // Success! Do stuff with data.
+
+
+	var tresc1 = Math.floor(Math.random() * (141 - 1)) + 1;
+	var tresc2 = Math.floor(Math.random() * (141 - 1)) + 1;
+
+	var los1 = data[tresc1].tresc;
+	var los1_id = data[tresc1].id;
+  window.los1_globalne = data[tresc1].id;
+document.getElementById("los1").innerHTML = los1_id + ". " + los1;
+if (localStorage.getItem( data[tresc1].id ) == null) {
+document.getElementById('los1_odpowiedz').value = "Wpisz swoją odpowiedź."; }
+else {
+  document.getElementById('los1_odpowiedz').value = localStorage.getItem( data[tresc1].id );
+}
+document.getElementById("przyciski").innerHTML = "<div class=\"block\"><p class=\"row\"><button onclick=\"zapiszLosujPracyPyt1()\" class=\"col button button-fill color-green\">Zapisz odpowiedź</button></p><p class=\"row\"><button onclick=\"odczytajLosujPracyPyt1()\" class=\"col button button-fill color-blue\">Wczytaj odpowiedź</button></p></div>";
+	var los2 = data[tresc2].tresc;
+	var los2_id = data[tresc2].id;
+    window.los2_globalne = data[tresc2].id;
+document.getElementById("los2").innerHTML = los2_id + ". " + los2;
+if (localStorage.getItem( data[tresc2].id ) == null) {
+document.getElementById('los2_odpowiedz').value = "Wpisz swoją odpowiedź."; }
+else {
+  document.getElementById('los2_odpowiedz').value = localStorage.getItem( data[tresc2].id );
+
+}
+document.getElementById("przyciski2").innerHTML = "<div class=\"block\"><p class=\"row\"><button onclick=\"zapiszLosujPracyPyt2()\" class=\"col button button-fill color-green\">Zapisz odpowiedź</button></p><p class=\"row\"><button onclick=\"odczytajLosujPracyPyt2()\" class=\"col button button-fill color-blue\">Wczytaj odpowiedź</button></p></div>";
+
+}
+
+);
+
+$.getJSON(
+  "ubezpieczenia2019.json",
+  function(data) {
+    // Success! Do stuff with data.
+	var tresc3 = Math.floor(Math.random() * (52 - 1)) + 1;
+	var los3 = data[tresc3].tresc;
+	var los3_id = data[tresc3].id;
+  window.los3_globalne = data[tresc3].id;
+document.getElementById("los3").innerHTML = los3_id + ". " + los3;
+if (localStorage.getItem( data[tresc3].id ) == null) {
+document.getElementById('los3_odpowiedz').value = "Wpisz swoją odpowiedź."; }
+else {
+  var korektanumeru = parseInt(data[tresc3].id) + 141;
+  document.getElementById('los3_odpowiedz').value = localStorage.getItem( korektanumeru );
+
+}
+document.getElementById("przyciski3").innerHTML = "<div class=\"block\"><p class=\"row\"><button onclick=\"zapiszLosujPracyPyt3()\" class=\"col button button-fill color-green\">Zapisz odpowiedź</button></p><p class=\"row\"><button onclick=\"odczytajLosujPracyPyt3()\" class=\"col button button-fill color-blue\">Wczytaj odpowiedź</button></p></div>";
+
+}
+);
+};
+</script>
+
+<script type="text/javascript">
+function zapiszLosujPracyPyt1() {
+	localStorage.setItem(
+		los1_globalne ,
+		document.getElementById('los1_odpowiedz').value
+	);
+alert('Pomyślnie zapisano odpowiedź.');
+}
+
+
+function odczytajLosujPracyPyt1() {
+if (localStorage.getItem( los1_globalne ) == null) {
+document.getElementById('los1_odpowiedz').value = "Wpisz swoją odpowiedź.";
+} else {
+	document.getElementById('los1_odpowiedz').value = localStorage.getItem( los1_globalne );
+  alert('Pomyślnie wczytano odpowiedź');
+
+}
+}
+</script>
+
+<script type="text/javascript">
+function zapiszLosujPracyPyt2() {
+	localStorage.setItem(
+		los2_globalne ,
+		document.getElementById('los2_odpowiedz').value
+	);
+alert('Pomyślnie zapisano odpowiedź.')
+}
+
+
+function odczytajLosujPracyPyt2() {
+if (localStorage.getItem( los2_globalne ) == null) {
+document.getElementById('los2_odpowiedz').value = "Wpisz swoją odpowiedź.";
+} else {
+  document.getElementById('los2_odpowiedz').value = localStorage.getItem(los2_globalne);
+	alert('Wczytano odpowiedź.');
+
+}
+}
+</script>
+
+<script type="text/javascript">
+function zapiszLosujPracyPyt3() {
+  var ubezp = parseInt(los3_globalne) + 141;
+	localStorage.setItem(
+		ubezp ,
+		document.getElementById('los3_odpowiedz').value
+	);
+alert('Pomyślnie zapisano odpowiedź.')
+}
+
+
+function odczytajLosujPracyPyt3() {
+  var ubezp = parseInt(los3_globalne) + 141;
+if (localStorage.getItem( ubezp ) == null) {
+document.getElementById('los3_odpowiedz').value = "Wpisz swoją odpowiedź.";
+} else {
+document.getElementById('los3_odpowiedz').value = localStorage.getItem(ubezp);
+	alert('Wczytano odpowiedź.');
+
+}
+}
+</script>
+
+<script type="text/javascript">
+function wpiszpracy() {
+  var podmiot = document.getElementById('input').value;
+  var ladowanie = '<i class="fa fa-spinner"></i> Ładowanie danych...';
+  document.getElementById("trescpytania").innerHTML = ladowanie;
+$.getJSON(
+  "prawopracy2019.json",
+  function(data) {
+    // Success! Do stuff with data.
+	var wpisanynumerwalidacja = Number(document.getElementById("input").value);
+	if (wpisanynumerwalidacja < 0 || wpisanynumerwalidacja == 0 || wpisanynumerwalidacja > 141) {
+	document.getElementById("trescpytania").innerHTML = "<p style=\"color:red;\">Wpisz właściwy numer pytania w zakresie 1-141.</p>";
+	} else {
+	var wpisanynumer = Number(document.getElementById("input").value) - 1;
+	var trescpytania = data[wpisanynumer].tresc;
+document.getElementById("trescpytania").innerHTML = trescpytania;
+document.getElementById("trescodpowiedzi").innerHTML = "<br><textarea style=\"width: 100%; height: 100%;\" id=\"inputted\" class=\"resizable\" placeholder=\"Wpisz tutaj swoją odpowiedź\"></textarea><br>";
+
+document.getElementById("przyciski").innerHTML = "<div class=\"block\"><p class=\"row\"><button onclick=\"zapiszEnterPracy()\" class=\"col button button-fill color-green\">Zapisz odpowiedź</button></p><p class=\"row\"><button onclick=\"odczytajEnterPracy()\" class=\"col button button-fill color-blue\">Wczytaj odpowiedź</button></p></div>";
+document.getElementById('inputted').value = localStorage.getItem( document.getElementById('input').value );
+}
+  }
+)};
+</script>
+
+<script type="text/javascript">
+function zapiszEnterPracy() {
+	localStorage.setItem(
+		document.getElementById('input').value ,
+		document.getElementById('inputted').value
+	);
+alert('Pomyślnie zapisano odpowiedź.');
+}
+
+
+function odczytajEnterPracy() {
+if (localStorage.getItem( document.getElementById('input').value ) == null) {
+document.getElementById('inputted').value = "Wpisz swoją odpowiedź.";
+} else {
+	document.getElementById('inputted').value = localStorage.getItem( document.getElementById('input').value );
+alert('Pomyślnie wczytano odpowiedź.');
+}
+}
+</script>
+
+<script type="text/javascript">
+function loadLocal() {
+  var load = JSON.stringify(localStorage);
+  console.log(load);
+  document.getElementById("wyciag").value = JSON.stringify(localStorage);
+  document.getElementById("wyciag").select();
+document.execCommand('copy');
+  alert('Wczytano wyciąg zapisanych odpowiedzi i automatycznie skopiowano go do schowka. Możesz go teraz wkleić w bezpieczne miejsce.');
+}
+</script>
+
+<script type="text/javascript">
+function wpiszubezp() {
+  var podmiot = document.getElementById('input').value;
+  var ladowanie = '<i class="fa fa-spinner"></i> Ładowanie danych...';
+  document.getElementById("trescpytania").innerHTML = ladowanie;
+$.getJSON(
+  "ubezpieczenia2019.json",
+  function(data) {
+    // Success! Do stuff with data.
+
+	var wpisanynumerwalidacja = Number(document.getElementById("input").value);
+	if (wpisanynumerwalidacja < 0 || wpisanynumerwalidacja == 0 || wpisanynumerwalidacja > 52) {
+	document.getElementById("trescpytania").innerHTML = "<p style=\"color:red;\">Wpisz właściwy numer pytania w zakresie 1-52.</p>";
+	} else {
+	var wpisanynumer = Number(document.getElementById("input").value) - 1;
+	var trescpytania = data[wpisanynumer].tresc;
+
+document.getElementById("trescpytania").innerHTML = trescpytania;
+
+document.getElementById("trescodpowiedzi").innerHTML = "<br><textarea style=\"width: 100%; height: 100%;\" id=\"inputted\" class=\"resizable\" placeholder=\"Wpisz tutaj swoją odpowiedź\"></textarea><br>";
+
+document.getElementById("przyciski").innerHTML = "<div class=\"block\"><p class=\"row\"><button onclick=\"zapiszEnterUbezp()\" class=\"col button button-fill color-green\">Zapisz odpowiedź</button></p><p class=\"row\"><button onclick=\"odczytajEnterUbezp()\" class=\"col button button-fill color-blue\">Wczytaj odpowiedź</button></p></div>";
+var korektanumeru = parseInt(document.getElementById('input').value) + 141;
+document.getElementById('inputted').value = localStorage.getItem( korektanumeru );
+}
+  }
+)};
+</script>
+
+<script type="text/javascript">
+function zapiszEnterUbezp() {
+  var korektanumeru =  parseInt(document.getElementById('input').value) + 141;
+	localStorage.setItem(
+		korektanumeru ,
+		document.getElementById('inputted').value
+	);
+alert('Pomyślnie zapisano odpowiedź.');
+}
+
+
+function odczytajEnterUbezp() {
+if (localStorage.getItem( document.getElementById('input').value == null || document.getElementById('input').value == 0)) {
+document.getElementById('inputted').value = "Wpisz swoją odpowiedź.";
+} else {
+  var korektanumeru =  parseInt(document.getElementById('input').value) + 141;
+  document.getElementById('inputted').value = localStorage.getItem( korektanumeru );
+alert('Pomyślnie wczytano odpowiedź.');
+}
+}
+</script>
+
+        <!-- Scrollable page content-->
+        <div class="page-content">
+          <div class="list">
+            <ul>
+              <li>
+			  <div class="block-title">Losuj zestaw trzech pytań</div>
+                <a href="/about/" class="item-content item-link">
+                  <div class="item-inner">
+          <div class="item-title"><i class="f7-icons">bolt_fill</i> Losuj zestaw</div>
+                  </div>
+                </a>
+              </li>
+			  </ul>
+			  <ul>
+		<li>
+			  <div class="block-title">Zobacz konkretne pytanie</div>
+                <a href="/enter/" class="item-content item-link">
+                  <div class="item-inner">
+          <div class="item-title"><i class="f7-icons">list</i> Prawo pracy</div>
+                  </div>
+
+                </a>
+				   <a href="/enterubezp/" class="item-content item-link">
+                  <div class="item-inner">
+          <div class="item-title"><i class="f7-icons">list</i> Ubezpieczenia społeczne</div>
+                  </div>
+
+                </a>
+              </li>
+
+            </ul>
+
+			  <ul>
+		<li>
+			  <div class="block-title">Pokaż wszystkie pytania</div>
+                <a href="/all/" class="item-content item-link">
+                  <div class="item-inner">
+          <div class="item-title"><i class="f7-icons">list_fill</i> Prawo pracy</div>
+                  </div>
+                </a>
+				<a href="/allubezpieczenia/" class="item-content item-link">
+                  <div class="item-inner">
+          <div class="item-title"><i class="f7-icons">list_fill</i> Ubezpieczenia społeczne</div>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+
+			     <ul>
+              <li>
+			  <div class="block-title">Przejrzyj akty prawne</div>
+                <a href="/aktyprawne/" class="item-content item-link">
+                  <div class="item-inner">
+          <div class="item-title"><i class="f7-icons">book</i> Akty prawne wymagane na egzamin</div>
+                  </div>
+                </a>
+              </li>
+			  </ul>
+        <ul>
+           <li>
+        <div class="block-title">Ustawienia</div>
+             <a href="/settings/" class="item-content item-link">
+               <div class="item-inner">
+        <div class="item-title"><i class="f7-icons">download</i> Kopia zapasowa odpowiedzi</div>
+               </div>
+             </a>
+           </li>
+        </ul>
+        <ul>
+           <li>
+        <div class="block-title">Polityka Prywatności</div>
+             <a href="/privacy/" class="item-content item-link">
+               <div class="item-inner">
+        <div class="item-title"><i class="f7-icons">eye_fill</i> Polityka Prywatności</div>
+               </div>
+             </a>
+           </li>
+        </ul>
+
+
+
+
+		<!--	 <ul>
+		<li>
+			  <div class="block-title">Ustawienia wyglądu pytań</div>
+                <a href="/settings/" class="item-content item-link">
+                  <div class="item-inner">
+          <div class="item-title"><i class="f7-icons">settings</i> Ustawienia</div>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+//Funkcja do skończenia
+			-->
+
+		<script type="text/javascript">
+		function kpracy() {
+		  app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19740240141/U/D19740141Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+				function minimalne() {
+				app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20180001794/O/D20181794.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+						function minimalneustawa() {
+app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20022001679/U/D20021679Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+								function urzedypanstwowe() {
+	app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19820310214/U/D19820214Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+			function sluzbacywilna() {
+			app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20170001889/U/D20171889Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+					function samorzadowe() {
+		app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20082231458/U/D20081458Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+		function szczegolne() {
+		app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20030900844/U/D20030844Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+				function wspolnaodp() {
+		app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19961430663/O/D19960663.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+						function szkodamienie() {
+						app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19961430662/O/D19960662.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+								function sus() {
+	app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19981370887/U/D19980887Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+		function macierzynstwo() {
+		app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19990600636/U/D19990636Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+				function zawodowe() {
+		app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20021991673/U/D20021673Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+						function emerytalne() {
+		app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20041161207/U/D20041207Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+								function rolnicy() {
+	app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19910070024/U/D19910024Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+										function fus() {
+	app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU19981621118/U/D19981118Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+		function swrodzinne() {
+	app.preloader.show();
+window.open('http://prawo.sejm.gov.pl/isap.nsf/download.xsp/WDU20032282255/U/D20032255Lj.pdf', '_system');
+      setTimeout(function () {
+    app.preloader.hide();
+  }, 1500);
+		}
+
+		</script>
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script>
+	     function initAds() {
+      if (admob) {
+        var adPublisherIds = {
+          android : {
+            banner : "ca-app-pub-3778512068936565/9972383700",
+            interstitial : "ca-app-pub-3778512068936565/2248918308"
+          }
+        };
+
+        var admobid = (/(android)/i.test(navigator.userAgent)) ? adPublisherIds.android : adPublisherIds.ios;
+
+        admob.setOptions({
+          publisherId:      admobid.banner,
+          interstitialAdId: admobid.interstitial,
+        });
+
+        registerAdEvents();
+
+      } else {
+        alert('AdMobAds plugin not ready');
+      }
+    }
+
+    function onAdLoaded(e) {
+      if (e.adType === admob.AD_TYPE.INTERSTITIAL) {
+        admob.showInterstitialAd();
+        showNextInterstitial = setTimeout(function() {
+          admob.requestInterstitialAd();
+        }, 2 * 60 * 1000); // 2 minutes
+      }
+    }
+
+    // optional, in case respond to events
+    function registerAdEvents() {
+      document.addEventListener(admob.events.onAdLoaded, onAdLoaded);
+      document.addEventListener(admob.events.onAdFailedToLoad, function (e) {});
+      document.addEventListener(admob.events.onAdOpened, function (e) {});
+      document.addEventListener(admob.events.onAdClosed, function (e) {});
+      document.addEventListener(admob.events.onAdLeftApplication, function (e) {});
+      document.addEventListener(admob.events.onInAppPurchaseRequested, function (e) {});
+    }
+
+	$(document).click(function()
+{
+    StatusBar.hide();
+});
+
+    function onDeviceReady() {
+
+      document.removeEventListener('deviceready', onDeviceReady, false);
+      initAds();
+
+      // display a banner at startup
+      admob.createBannerView();
+
+      // request an interstitial
+      
+
+
+
+
+    }
+
+    document.addEventListener("deviceready", onDeviceReady, false);
+		$("#inputkrs").keyup(function(event) {
+    if (event.keyCode === 13) {
+        $("#input").click();
+    }
+});
+
+
+  </script>
+  <!-- Cordova -->
+  <!--
+
+  -->
+<script src="cordova.js"></script>
+
+
+
+
+  <!-- Framework7 library -->
+  <script src="framework7/js/framework7.min.js"></script>
+
+  <!-- App routes -->
+  <script src="js/routes.js"></script>
+
+  <!-- Your custom app scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>

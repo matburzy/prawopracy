@@ -1,0 +1,210 @@
+[
+ {
+   "id": 1,
+   "tresc": "Proszę przedstawić zakres podlegania ubezpieczeniom społecznym przez osobę prowadzącą pozarolniczą działalność gospodarczą w rozumieniu ustawy o systemie ubezpieczeń społecznych z uwzględnieniem podstawy wymiaru składki na poszczególne rodzaje ubezpieczenia."
+ },
+ {
+   "id": 2,
+   "tresc": "Proszę wskazać, jak rozstrzygnąć zbieg tytułów ubezpieczenia w postaci umowy zlecenia i prowadzenia pozarolniczej działalności gospodarczej na podstawie ustawy o systemie ubezpieczeń społecznych."
+ },
+ {
+   "id": 3,
+   "tresc": "W jakim zakresie i z jakiego tytułu obowiązkowemu ubezpieczeniu społecznemu podlega osoba prowadząca kilka rodzajów pozarolniczej działalności gospodarczej i jaka jest minimalna podstawa wymiaru składki takiej osoby?"
+ },
+ {
+   "id": 4,
+   "tresc": "W jakim zakresie ubezpieczeniom społecznym podlega osoba pozostająca w kilku równoległych stosunkach pracy i jaka jest podstawa wymiaru składki na ubezpieczenie społeczne takiej osoby?"
+ },
+ {
+   "id": 5,
+   "tresc": "Proszę przedstawić, jakie skutki w sferze ubezpieczeń społecznych wywołuje zawarcie umowy o dzieło z własnym pracodawcą oraz porównać je ze skutkami zawarcia tego rodzaju umowy z innym zamawiającym. Proszę ocenić, jaka kwota będzie stanowiła podstawę wymiaru składki oraz kto będzie jej płatnikiem w następującym stanie faktycznym: „Anna K. jest pracownikiem medycznym szpitala, w którym jest zatrudniona na umowę o pracę. Pracuje na zmiany za wynagrodzeniem 3000 złotych. Szpital zawarł umowę o świadczenie usług medycznych ze spółką z o.o., a spółka z kolei zawarła umowę zlecenia z Anną K., której przedmiotem było wykonywanie usług medycznych na rzecz szpitala, pod jego nadzorem, ale w czasie wolnym od pracy przez Annę K., za wynagrodzeniem 2000 złotych.”"
+ },
+ {
+   "id": 6,
+   "tresc": "W jakim zakresie i z jakiego tytułu obowiązkowemu ubezpieczeniu społecznemu podlega zleceniobiorca związany także umową o pracę z podmiotem, który nie jest zleceniodawcą?"
+ },
+ {
+   "id": 7,
+   "tresc": "Na jakich zasadach ubezpieczeniom społecznym podlega radca prawny, w zależności od formy, w jakiej wykonuje swój zawód?"
+ },
+ {
+   "id": 8,
+   "tresc": "Proszę przedstawić strukturę podziału składki na ubezpieczenie społeczne, na przykładzie stosunku pracy i wskazać, w jakim zakresie do jej pokrycia zobowiązany jest pracodawca, a w jakim pracownik."
+ },
+ {
+   "id": 9,
+   "tresc": "Proszę wskazać, w jaki sposób oblicza się składkę na ubezpieczenie zdrowotne i od jakich przychodów jest ona potrącana oraz kto ją finansuje?"
+ },
+ {
+   "id": 10,
+   "tresc": "Proszę wskazać, w jaki sposób oblicza się składkę na ubezpieczenie zdrowotne i od jakich przychodów jest ona potrącana oraz kto ją finansuje? Proszę wyjaśnić pojęcie nienależnie pobranych świadczeń w rozumieniu ustawy o systemie ubezpieczeń społecznych, zasady ich zwrotu i termin przedawnienia. "
+ },
+ {
+   "id": 11,
+   "tresc": "Jakie należności wchodzą w zakres pojęcia „należności z tytułu składek\" i z jakim terminem ulegają przedawnieniu?"
+ },
+ {
+   "id": 12,
+   "tresc": "Czy Zakład Ubezpieczeń Społecznych może zastosować jakieś ulgi w zakresie obowiązku zapłaty należności z tytułu składek, jeżeli tak, to w jakich okolicznościach i w jakim trybie?"
+ },
+ {
+   "id": 13,
+   "tresc": "Przy spełnieniu jakich przesłanek możliwe jest umorzenie należności z tytułu składek na ubezpieczenie społeczne? Proszę omówić także możliwość umorzenia składek wobec płatnika, który jest jednocześnie ubezpieczonym."
+ },
+ {
+   "id": 14,
+   "tresc": "Jakie warunki muszą być spełnione, aby przedsiębiorca mógł domagać się umorzenia należności z tytułu składek, mimo braku ich całkowitej nieściągalności?"
+ },
+ {
+   "id": 15,
+   "tresc": "Czy od decyzji organu rentowego (oddziału ZUS) odmawiającej wnioskodawcy umorzenia należności z tytułu składek na ubezpieczenia społeczne przysługuje odwołanie do sądu powszechnego - sądu ubezpieczeń społecznych, a jeśli nie, to czy i w jakim trybie taka decyzja może być zakwestionowana?"
+ },
+ {
+   "id": 16,
+   "tresc": "Jakie są uprawnienia, a jakie obowiązki inspektorów kontroli ZUS, którzy dokonują kontroli wykonywania zadań i obowiązków w zakresie ubezpieczeń społecznych?"
+ },
+ {
+   "id": 17,
+   "tresc": "Proszę przedstawić zasady przeprowadzania czynności kontrolnych przez ZUS u płatnika składek oraz prawa i obowiązki płatnika składek w czasie kontroli."
+ },
+ {
+   "id": 18,
+   "tresc": "Jakie świadczenia przysługują z ustawy o świadczeniach pieniężnych z ubezpieczenia społecznego w razie choroby i macierzyństwa?"
+ },
+ {
+   "id": 19,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat przesłanek nabycia prawa do zasiłku chorobowego oraz sposobu obliczania jego wysokości."
+ },
+ {
+   "id": 20,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat okoliczności wyłączających prawo do zasiłku chorobowego."
+ },
+ {
+   "id": 21,
+   "tresc": "Proszę przedstawić procedurę kontroli prawidłowości orzeczeń lekarskich o czasowej niezdolności do pracy z powodu choroby."
+ },
+ {
+   "id": 22,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat zasad przyznawania świadczenia rehabilitacyjnego."
+ },
+ {
+   "id": 23,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat zasad przyznawania świadczenia rehabilitacyjnego."
+ },
+ {
+   "id": 24,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat przesłanek nabycia prawa do zasiłku opiekuńczego."
+ },
+ {
+   "id": 25,
+   "tresc": "Proszę omówić zagadnienie przedawnienia roszczeń o wypłatę zasiłku chorobowego, wyrównawczego, macierzyńskiego i opiekuńczego."
+ },
+ {
+   "id": 26,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat świadczeń przysługujących ubezpieczonemu z tytułu wypadku przy pracy lub choroby zawodowej?"
+ },
+ {
+   "id": 27,
+   "tresc": "Proszę wymienić i krótko scharakteryzować świadczenia z ubezpieczenia wypadkowego ze wskazaniem osób do nich uprawnionych."
+ },
+ {
+   "id": 28,
+   "tresc": "Proszę wskazać krąg podmiotów uprawnionych do świadczeń z ubezpieczenia wypadkowego. Czy ubezpieczenie to może być dobrowolne?"
+ },
+ {
+   "id": 29,
+   "tresc": "Proszę wskazać, jakie okoliczności muszą wystąpić, aby zdarzenie mogło być uznane za wypadek przy pracy?"
+ },
+ {
+   "id": 30,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat przesłanek nabycia prawa do jednorazowego odszkodowania z tytułu wypadku przy pracy, a także jego podwyższenia."
+ },
+ {
+   "id": 31,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat tego, co to jest „kapitał początkowy\" i dla kogo się go ustala?"
+ },
+ {
+   "id": 32,
+   "tresc": "Jakie okresy według ustawy o emeryturach i rentach z Funduszu Ubezpieczeń Społecznych są okresami składkowymi?"
+ },
+ {
+   "id": 33,
+   "tresc": "Jako radca prawny proszę wyjaśnić klientowi znaczenie pojęć częściowej i całkowitej niezdolności do pracy, podać różnice pomiędzy nimi, a także udzielić informacji prawnej na temat procedury stwierdzania niezdolności do pracy."
+ },
+ {
+   "id": 34,
+   "tresc": "Jako radca prawny proszę udzielić klientowi informacji prawnej na temat zasad przyznawania renty z tytułu niezdolności do pracy oraz ustalania jej wysokości z ustawy o emeryturach i rentach z FUS."
+ },
+ {
+   "id": 35,
+   "tresc": "Jako radca prawny proszę udzielić klientowi wyczerpującej informacji prawnej na temat rozumienia pojęć wypadku w drodze do pracy oraz z pracy oraz konsekwencji prawnych tych zdarzeń."
+ },
+ {
+   "id": 36,
+   "tresc": "Proszę udzielić klientowi informacji prawnej na temat renty rodzinnej, wskazując w szczególności, komu przysługuje."
+ },
+ {
+   "id": 37,
+   "tresc": "Proszę omówić, jakie warunki musi spełnić uprawniony do renty rodzinnej, aby nabyć prawo do dodatku pielęgnacyjnego albo dodatku dla sierot zupełnych."
+ },
+ {
+   "id": 38,
+   "tresc": "Jako radca prawny proszę wyjaśnić klientowi przesłanki oraz tryb zawieszenia prawa do emerytury lub renty."
+ },
+ {
+   "id": 39,
+   "tresc": "Proszę wyjaśnić, w jakich przypadkach świadczenie wynikające z prawa do emerytury ulega zmniejszeniu."
+ },
+ {
+   "id": 40,
+   "tresc": "Jako radca prawny proszę przedstawić klientowi wyczerpującą informacje prawną na temat uprawnienia do zasiłku pogrzebowego i trybu jego uzyskiwania."
+ },
+ {
+   "id": 41,
+   "tresc": "Proszę omówić cel i formy prowadzenia pracowniczych programów emerytalnych. Proszę wymienić elementy umowy zakładowej oraz kwestię reprezentacji stron przy jej zawieraniu."
+ },
+ {
+   "id": 42,
+   "tresc": "Jako radca prawny proszę przedstawić klientowi, będącemu rolnikiem, jego uprawnienia z tytułu ubezpieczenia społecznego."
+ },
+ {
+   "id": 43,
+   "tresc": "Proszę wymienić rodzaje świadczeń rodzinnych i wskazać, w jakim przypadku prawo do nich przysługuje cudzoziemcom."
+ },
+ {
+   "id": 44,
+   "tresc": "Proszę krótko scharakteryzować świadczenia opiekuńcze, w szczególności zasiłek pielęgnacyjny i świadczenie pielęgnacyjne. "
+ },
+ {
+   "id": 45,
+   "tresc": "Jako radca prawny proszę udzielić klientowi wyczerpującej informacji prawnej na temat prawa do zasiłku rodzinnego."
+ },
+ {
+   "id": 46,
+   "tresc": "Jako radca prawny proszę wyjaśnić klientowi pojęcie „nienależnie pobranych świadczeń” w rozumieniu ustawy o świadczeniach rodzinnych, zasady ich zwrotu oraz termin przedawnienia."
+ },
+ {
+   "id": 47,
+   "tresc": "Jako radca prawny proszę wyjaśnić klientowi, jaki środek ochrony prawnej i w jakim trybie przysługuje płatnikowi bądź ubezpieczonemu od decyzji, co do których ustawa nie przewiduje dopuszczalności złożenia odwołania do sądu powszechnego?"
+ },
+ {
+   "id": 48,
+   "tresc": "Czy sprawa, w której ubezpieczony kwestionuje decyzję Zakładu Ubezpieczeń Społecznych odmawiającą wydania zaświadczenia o niezaleganiu z opłatą składek na ubezpieczenie społeczne jest sprawą z zakresu ubezpieczeń społecznych? Proszę podać definicję sprawy z zakresu ubezpieczeń społecznych."
+ },
+ {
+   "id": 49,
+   "tresc": "W sprawie o ustalenie wysokości emerytury organ rentowy oponuje co do dowodu z zeznań świadków na okoliczności dotyczące wysokości wynagrodzenia wnioskodawcy, gdyż wysokość zarobków można udowodnić wyłącznie dowodami z dokumentów płacowych, a nie dowodami osobowymi. Czy stanowisko pozwanego jest słuszne?"
+ },
+ {
+   "id": 50,
+   "tresc": "Rafał M. był zatrudniony w okresie od czerwca 2008 roku do czerwca 2017 roku na podstawie umowy o pracę i otrzymywał wynagrodzenie w wysokości 1/3 wynagrodzenia minimalnego w skali jednego miesiąca. W tym samym okresie prowadził pozarolniczą działalność gospodarczą w zakresie handlu i nie opłacał składek na ubezpieczenie z tytułu działalności gospodarczej. Z jakiego tytułu wnioskodawca podlega ubezpieczeniu i dlaczego?"
+ },
+ {
+   "id": 51,
+   "tresc": "Witold W. urodzony 10 marca 1947 roku, złożył wniosek o emeryturę w dniu 1 grudnia 2014 roku. We wniosku wykazał, że był zatrudniony na podstawie umowy o pracę od 17 lat oraz że w okresie od 1 stycznia 1966 roku do 31 grudnia 1976 roku pracował stale, jako domownik, w gospodarstwie rolnym rodziców o powierzchni 10 ha. Czy wnioskodawca spełnił warunki do ustalenia prawa do emerytury?"
+ },
+ {
+   "id": 52,
+   "tresc": "Zakład Ubezpieczeń Społecznych ustalił w decyzji prawomocnej, że ubezpieczony Marian K. obowiązkowo podlega ubezpieczeniom: emerytalnemu, rentowym i wypadkowemu z tytułu prowadzonej pozarolniczej działalności gospodarczej od 1 stycznia 1999 roku do 28 stycznia 2013 roku i w tym okresie nie opłacał składek na ubezpieczenie społeczne. ZUS zobowiązał go zatem do zapłaty zaległych składek za cały okres (wraz z odsetkami). Proszę udzielić porady prawnej Marianowi K. co do dalszego postępowania."
+ }
+]

@@ -1,0 +1,74 @@
+<div class="page" data-name="about">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Losuj pytania</div>
+    </div>
+  </div>
+  <div class="page-content">
+
+<div class="list simple-list">
+
+
+      <button style="text-align:center;" id="button1" class="button button-raised button-fill color-green" type="submit"  onclick="losuj()"><i class="fa fa-random"></i> Losuj</button>
+<span class="losowanie">
+<div class="card">
+  <div class="card-header bg-color-blue text-color-white"><i class="f7-icons">book</i> Pytanie 1 (Prawo pracy):</div>
+  <div class="card-content card-content-padding"><p id="los1"></p></div>
+<div class="accordion-item">
+    <div class="accordion-item-toggle"><i class="f7-icons">chevron_down_round_fill</i> Twoja odpowiedź (rozwiń)</div>
+
+    <div class="accordion-item-content"><textarea id="los1_odpowiedz" class="accordion-item-content">...</textarea></div>
+  <div id="przyciski" class="accordion-item-content"></div>
+</div>
+
+</div>
+<div class="card">
+  <div class="card-header bg-color-blue text-color-white"><i class="f7-icons">book</i> Pytanie 2 (Prawo pracy):</div>
+  <div class="card-content card-content-padding"><p id="los2"></p></div>
+  <div class="accordion-item">
+      <div class="accordion-item-toggle"><i class="f7-icons">chevron_down_round_fill</i> Twoja odpowiedź (rozwiń)</div>
+
+      <div class="accordion-item-content"><textarea id="los2_odpowiedz" class="accordion-item-content">...</textarea></div>
+      <div id="przyciski2" class="accordion-item-content"></div>
+
+  </div>
+</div>
+<div class="card">
+  <div class="card-header bg-color-green text-color-white"><i class="f7-icons">book</i> Pytanie 3 (Ubezpieczenia społeczne):</div>
+  <div class="card-content card-content-padding"><p id="los3"></p></div>
+  <div class="accordion-item">
+      <div class="accordion-item-toggle"><i class="f7-icons">chevron_down_round_fill</i> Twoja odpowiedź (rozwiń)</div>
+      <div class="accordion-item-content"><textarea id="los3_odpowiedz" class="accordion-item-content">...</textarea></div>
+      <div id="przyciski3" class="accordion-item-content"></div>
+  </div>
+</div>
+
+
+
+     <div class="block-title"><i class="f7-icons">book_fill</i> Źródło: Krajowa Rada Radców Prawnych</div>
+</span>
+
+
+	 <div class="block block-strong">
+<div class="block-title">Ustawienia czcionki</div>
+            <div class="row">
+              <div class="col-33">
+                   <button id="normalfont" class="button button-raised button-fill popup-open" type="submit" value="Czcionka normalna" onclick="normalfont()">Domyślna</button><br>
+              </div>
+              <div class="col-33">
+                   <button id="mediumfont" class="button button-raised button-fill popup-open" type="submit" value="Czcionka średnia" onclick="mediumfont()">Średnia</button><br>
+              </div>
+  <div class="col-33">
+                   <button id="hugefont" class="button button-raised button-fill popup-open" type="submit" value="Czcionka największa" onclick="hugefont()">Duża</button><br>
+              </div>
+	</div>
+	</div>
+	 </div>
+  </div>
+</div>
